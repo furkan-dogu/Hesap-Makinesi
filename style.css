@@ -71,6 +71,10 @@ button {
     background-color: #ffffffad;  
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 #sonuc {
     width: 100%;
     height: 60px;
