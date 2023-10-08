@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hesap Makinesi</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1>HESAP MAKİNESİ</h1>
+            <div class="input">
+                <label for="">1. Sayı</label>
+                <input type="number" id="sayi1">
+            </div>
+            
+            <div class="input">
+                <label for="">2. Sayı</label>
+                <input type="number" id="sayi2">
+            </div>
+            
+            
+
+        <div class="butonlar">
+            <button type="button" onclick="topla()">+</button>
+            <button type="button" onclick="cikar()">-</button>
+            <button type="button" onclick="carp()">x</button>
+            <button type="button" onclick="bol()">/</button>
+        </div>    
+            
+
+            <div id="sonuc"></div>
+        </form>
+        
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
